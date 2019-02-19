@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Randomly",
+	"version": "0.1.0",
+	"description": "Randomly loads pages randomly form your list on chrome's newtab page.",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"permissions": [
+        "tabs"
+	]
+}
